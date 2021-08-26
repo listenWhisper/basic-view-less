@@ -1,0 +1,23 @@
+{
+	"name": "basic-view-less",
+	"version": "0.0.1",
+	"description": "basic-view-less",
+	"keywords": [
+		"基础视图样式"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"view-publish": "npm publish",
+		"patch-publish": "npm version patch && npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"devDependencies": {
+		"less": "^4.1.1",
+		"less-loader": "^10.0.1"
+	},
+	"author": "listenWhiper",
+	"license": ""
+}
