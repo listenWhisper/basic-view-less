@@ -1,0 +1,110 @@
+.w(@count) when (@count > 0){
+  .w-@{count}{
+    width: "@{count}%";
+  }
+  .w(@count -1);
+}
+.w(100)
+
+
+.h(@count) when (@count > 0){
+  .h-@{count}{
+    height: "@{count}%";
+  }
+  .w(@count -1);
+}
+.h(100)
+
+.wh(@count) when (@count > 0){
+  .wh-@{count}{
+    width: "@{count}%";
+    height: "@{count}%";
+  }
+  .wh(@count -1);
+}
+.wh(100)
+
+.padding(@count) when (@count > 0){
+  .padding-@{count}{
+    padding: @space * @count !important;
+  }
+  .padding(@count -1);
+}
+.padding(100)
+
+
+.padding-left(@count) when (@count > 0){
+  .padding-left-@{count}{
+    padding-left: @space * @count !important;
+  }
+  .padding-left(@count -1);
+}
+.padding-left(100)
+
+.padding-right(@count) when (@count > 0){
+  .padding-right-@{count}{
+    padding-right: @space * @count !important;
+  }
+  .padding-right(@count -1);
+}
+.padding-right(100)
+
+.padding-top(@count) when (@count > 0){
+  .padding-top-@{count}{
+    padding-top: @space * @count !important;
+  }
+  .padding-top(@count -1);
+}
+.padding-top(100)
+
+.padding-bottom(@count) when (@count > 0) {
+
+  .padding-bottom-@{count}{
+    padding-bottom: @space * @count !important;
+  }
+  .padding-bottom(@count -1);
+}
+.padding-bottom(100)
+
+
+.margin(@count) when (@count > 0){
+  .margin-@{count}{
+    margin: @space * @count !important;
+  }
+  .margin(@count -1);
+}
+.margin(100)
+
+
+.margin-left(@count) when (@count > 0){
+  .margin-left-@{count}{
+    margin-left: @space * @count !important;
+  }
+  .margin-left(@count -1);
+}
+.margin-left(100)
+
+.margin-right(@count) when (@count > 0){
+  .margin-right-@{count}{
+    margin-right: @space * @count !important;
+  }
+  .margin-right(@count -1);
+}
+.margin-right(100)
+
+.margin-top(@count) when (@count > 0){
+  .margin-top-@{count}{
+    margin-top: @space * @count !important;
+  }
+  .margin-top(@count -1);
+}
+.margin-top(100)
+
+.margin-bottom(@count) when (@count > 0) {
+
+  .margin-bottom-@{count}{
+    margin-bottom: @space * @count !important;
+  }
+  .margin-bottom(@count -1);
+}
+.margin-bottom(100)
